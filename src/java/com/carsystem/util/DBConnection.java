@@ -7,7 +7,7 @@ public class DBConnection {
     // Database URL: car_system_db
     private static final String URL = "jdbc:mysql://localhost:3306/car_system_db?useSSL=false&allowPublicKeyRetrieval=true";
     private static final String USER = "root";
-    private static final String PASSWORD = "120704"; 
+    private static final String PASSWORD = "sakshi"; 
 
     public static Connection getConnection() {
         Connection conn = null;
